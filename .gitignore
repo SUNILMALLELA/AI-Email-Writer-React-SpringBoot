@@ -4,7 +4,7 @@
 target/
 *.log
 src/main/resources/application.properties
-
+email-writer/email-writer/src/main/resources/application.properties
 # ======================
 # Frontend (React)
 # ======================
