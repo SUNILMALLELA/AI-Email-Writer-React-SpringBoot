@@ -132,11 +132,6 @@ POST /api/email/generate
 
 ---
 
-## 📸 Screenshots
-
-*Add your UI screenshots here (VERY IMPORTANT for recruiters)*
-
----
 
 ## 🚀 Future Enhancements
 
