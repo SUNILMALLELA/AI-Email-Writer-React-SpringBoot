@@ -1,0 +1,22 @@
+# ======================
+# Backend (Spring Boot)
+# ======================
+target/
+*.log
+src/main/resources/application.properties
+
+# ======================
+# Frontend (React)
+# ======================
+node_modules/
+dist/
+.env
+.env.local
+
+# ======================
+# Common
+# ======================
+.idea/
+.vscode/
+*.iml
+.DS_Store

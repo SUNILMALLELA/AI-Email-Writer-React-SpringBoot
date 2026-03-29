@@ -1,0 +1,22 @@
+services:
+  backend:
+    build: ./email-writer/email-writer
+    container_name: springboot-app
+    ports:
+      - "8080:8080"
+    networks:
+      - app-network
+
+  frontend:
+    build: ./email-ui/email-writer-react
+    container_name: react-app
+    ports:
+      - "5050:5050"
+    depends_on:
+      - backend
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
